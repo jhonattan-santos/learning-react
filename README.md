@@ -1,2 +1,3 @@
-# exercise-webpack
-Exercise to course of webpack
+# Exercise to course of webpack
+
+ Initializing on travel to learn React
