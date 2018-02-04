@@ -1,3 +1,3 @@
-# Exercise to course of webpack
+# Exercise to course of React + Redux
 
  Initializing on travel to learn React
