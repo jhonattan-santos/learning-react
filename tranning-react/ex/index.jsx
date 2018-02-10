@@ -1,4 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import SantosFamily from './familiaSantos'
 
-ReactDOM.render(<h1>Hello React!</h1>, document.getElementById('app'))
+ReactDOM.render(
+    <SantosFamily />
+    ,document.getElementById('app')
+)

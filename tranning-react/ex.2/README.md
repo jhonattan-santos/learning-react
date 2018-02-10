@@ -1,0 +1,1 @@
+# Bind data with props into component
