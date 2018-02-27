@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SantosFamily from './familiaSantos'
+import ClassComponent from './classComponent'
+
 
 ReactDOM.render(
-    <SantosFamily />
+    <ClassComponent label="Stopwatch" initialValue={10} />
     ,document.getElementById('app')
 )

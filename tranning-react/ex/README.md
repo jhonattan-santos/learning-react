@@ -1,1 +1,1 @@
-# Printing component with childrens
+# Component with controlled and without control
