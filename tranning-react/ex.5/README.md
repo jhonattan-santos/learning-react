@@ -1,0 +1,1 @@
+# Component family with spread operator (...obj)
