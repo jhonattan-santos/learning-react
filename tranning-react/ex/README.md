@@ -1,1 +1,1 @@
-# Component with controlled and without control
+# Controlled and uncontroled component
