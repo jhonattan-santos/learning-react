@@ -2,14 +2,15 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry: 'src/index.jsx',
+    entry: './src/index.jsx',
     output: {
-        path: --dirname + '/public',
+        path: __dirname + '/public',
         filename: './app.js',
     },
     devServer: {
         port: 8080,
         contentBase: './public',
+        open: true
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],
@@ -27,7 +28,7 @@ module.exports = {
             exclude: /node_modules/,
             query: {
                 presets: ['es2015', 'react'],
-                plugins: ['trasform-object-rest-spread']
+                plugins: ['transform-object-rest-spread']
             }
         },{
             test: /\.css$/,
